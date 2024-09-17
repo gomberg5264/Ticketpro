@@ -109,7 +109,7 @@ def clear_tickets():
     db.session.commit()
     return jsonify({'message': 'All tickets cleared successfully'})
 
-if __name__ == '__main__':
+def init_db():
     with app.app_context():
         db.create_all()  # This will only create tables if they don't exist
         # Check if the test PIN exists, if not, add it
@@ -119,4 +119,6 @@ if __name__ == '__main__':
             db.session.add(new_user)
             db.session.commit()
             logger.info(f"Added test user with PIN: {test_pin}")
-    app.run(host='0.0.0.0', port=5000)
+
+# Call init_db function to initialize the database
+init_db()
