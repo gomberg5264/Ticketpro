@@ -1,0 +1,36 @@
+ * Serving Flask app 'main'
+ * Debug mode: off
+INFO:werkzeug:WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.136:5000
+INFO:werkzeug:Press CTRL+C to quit
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:34] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:34] "GET /static/css/tailwind.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:34] "GET /static/js/app.js HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:34] "GET /static/css/tailwind.css HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:34] "GET /static/js/app.js HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:46] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:46] "GET /static/css/tailwind.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:47] "GET /static/js/app.js HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:52] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:52] "GET /static/css/tailwind.css HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:52] "GET /static/js/app.js HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:53] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:53] "GET /static/css/tailwind.css HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:53] "GET /static/js/app.js HTTP/1.1" 200 -
+WARNING:__main__:Failed login attempt with PIN: 52640628
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:56] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:56] "GET /static/css/tailwind.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:53:56] "GET /static/js/app.js HTTP/1.1" 304 -
+WARNING:__main__:Failed login attempt with PIN: 52640628
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:54:01] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:54:01] "GET /static/css/tailwind.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:54:01] "GET /static/js/app.js HTTP/1.1" 304 -
+WARNING:__main__:Failed login attempt with PIN: 52640628
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:54:07] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:54:08] "GET /static/css/tailwind.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.136 - - [17/Sep/2024 17:54:08] "GET /static/js/app.js HTTP/1.1" 304 -
